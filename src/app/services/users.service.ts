@@ -12,8 +12,7 @@ export class UsersService {
       id: u.id,
       name: `${u.firstName} ${u.lastName}`,
       email: u.email,
-      active: u.id % 2 !== 0,
-      image: u.image
+      active: u.id % 2 !== 0
     }));
   }
 
